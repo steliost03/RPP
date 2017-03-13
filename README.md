@@ -48,7 +48,7 @@ For the boundary , different approximate geometric techniques are used.
 
 ### Optimal path calculation
 
-## Parameters
+## Usage & Parameters
 
 
 ## License
