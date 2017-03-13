@@ -59,21 +59,24 @@ For the calculation of the safest path, the generalized Voronoi diagram is utili
 
 Specifically, the procedure is the following :
 
-* 
-* 
-* 
+* For the starting and ending points , the nearest nodes of the graph are found, and the respective lines are 'drawn'.
+* A greedy best-first algorithm is implemented, to find a path between the starting and ending nodes. The metric used is the euclidean distance between the nodes of the graph.
 
 ### Optimal path calculation
 
+The metric with which optimality is pursued is the total distance travelled.
 For the calculation of the optimal path , the following procedure is utilized :
 
-* 
-* 
-* 
-* 
-* 
+* An attempt to draw a straight line between the starting and ending points is made. If that is possible without an intersection occuring,then the straight path defined by that line is the optimal path, and the algorithm terminates.
+* If a straight line is not possible , then another approach is used. From the starting point , a very small line is drawn with direction to the ending point. This line is continuously (and slowly with each iteration) increasing in size. Upon a 'collision' with an obstacle , two possible paths are created : one which travels in a clockwise manner to the boundary of the obstacle (the modified version)  and one which travels in a counter-clockwise manner.
+* As each line progresses upon the obstacle boundary, a continuous check on whether it can stop travelling on the boundary and resume its straight path towards the ending point is made.
+* This algorithm repeats from the second step and beyond : all the possible paths make an effort to reach the ending point , and every time a path meets an obstacle,it is split into two possible paths.
+* When all the paths have reached their destination , the optimal in terms of distance travelled is finally chosen.
+
 
 ## Usage & Parameters
+
+**Note for compilation with Visual Studio** : For better execution speed, select 'Release' in the solution configuration.
 
 
 ## License
