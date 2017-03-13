@@ -33,14 +33,18 @@ This program uses the following libraries :
 
 ## How it works
 
-### Minkowski sums and modified boundary
+### Minkowski sums, modified boundary and resulting free space
 
 In order to simplify calculations , the robot is considered to be a point in space (specifically,the point chosen is always its center).
 The information about its dimensions is 'transferred' to the obstacles and the boundary of the environment . They are modified accordingly so that the resulting environment is mathematically equivalent to its initial counterpart.
 
 The mathematical tool used in order to correctly modify the dimensions of the obstacles, are the Minkowski sums (calculated in an approximate manner, through selecting key points of both the robot and the obstacle).
 
-For the boundary , different approximate geometric techniques are used.
+For the boundary , different approximate geometric techniques are used (note that the environment boundary contracts as the dimensions
+of the robot increase while the obstacles dilate , and vice versa). A modified environment boundary is extracted.
+
+By calculating the union of the modified obstacles and afterwards the boolean difference with the modified environment boundary, we
+can extract the polygonal space in which the robot can move. We will refer to it as **free space**.
 
 ### Generalized Voronoi diagram
 
@@ -65,7 +69,7 @@ Specifically, the procedure is the following :
 ### Optimal path calculation
 
 The metric with which optimality is pursued is the total distance travelled.
-For the calculation of the optimal path , the following procedure is utilized :
+For the calculation of the optimal path , the following procedure is implemented :
 
 * An attempt to draw a straight line between the starting and ending points is made. If that is possible without an intersection occuring,then the straight path defined by that line is the optimal path, and the algorithm terminates.
 * If a straight line is not possible , then another approach is used. From the starting point , a very small line is drawn with direction to the ending point. This line is continuously (and slowly with each iteration) increasing in size. Upon a 'collision' with an obstacle , two possible paths are created : one which travels in a clockwise manner to the boundary of the obstacle (the modified version)  and one which travels in a counter-clockwise manner.
@@ -73,7 +77,16 @@ For the calculation of the optimal path , the following procedure is utilized :
 * This algorithm repeats from the second step and beyond : all the possible paths make an effort to reach the ending point , and every time a path meets an obstacle,it is split into two possible paths.
 * When all the paths have reached their destination , the optimal in terms of distance travelled is finally chosen.
 
+### Extra procedures&calculations for the combined motion
 
+For the rotational motion , the input is not 
+For the case of the combined motion , the following procedure is implemented :
+
+* For an (evenly spaced) number of different angles , the free space is calculated. 
+
+* The union of all the free spaces is calculated . The resulting space will represent , in a sense, the best case scenario for all the angles used in the previous step , meaning that 
+
+* For the resulting space, the above mentioned algorithms are implemented for the calculation of the safest and optimal paths , but with one distiction. For every step (for every node in the case of the safest path, and for every growth interval for the optimal) 
 ## Usage & Parameters
 
 **Note for compilation with Visual Studio** : For better execution speed, select 'Release' in the solution configuration.
