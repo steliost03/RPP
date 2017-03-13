@@ -77,7 +77,7 @@ For the calculation of the optimal path , the following procedure is implemented
 * This algorithm repeats from the second step and beyond : all the possible paths make an effort to reach the ending point , and every time a path meets an obstacle,it is split into two possible paths.
 * When all the paths have reached their destination , the optimal in terms of distance travelled is finally chosen.
 
-### Extra procedures&calculations for the combined motion
+### Extra procedures & calculations for the combined motion
 
 For the rotational motion , the input is not 
 For the case of the combined motion , the following procedure is implemented :
