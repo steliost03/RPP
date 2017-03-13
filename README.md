@@ -35,7 +35,9 @@ This program uses the following libraries :
 
 ### Minkowski sums
 
+
 ### Modified boundary
+
 
 ### Generalized Voronoi diagram
 
@@ -49,4 +51,4 @@ This program uses the following libraries :
 
 For personal , educational and/or other uses covered under fair use. This limitation is due to the dependencies of this program.
 
-Copyright (C) 2017 Stylianos Tsiakalos
+Copyright (C) 2017 Stelios Tsiakalos
