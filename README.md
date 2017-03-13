@@ -79,14 +79,16 @@ For the calculation of the optimal path , the following procedure is implemented
 
 ### Extra procedures & calculations for the combined motion
 
-For the rotational motion , the input is not 
-For the case of the combined motion , the following procedure is implemented :
+For the rotational motion , the input is not limited to the positions of the starting and ending points. The orientation of the robot at these positions must also be given.
+
+The following procedure is implemented :
 
 * For an (evenly spaced) number of different angles , the free space is calculated. 
 
-* The union of all the free spaces is calculated . The resulting space will represent , in a sense, the best case scenario for all the angles used in the previous step , meaning that 
+* The union of all the free spaces is calculated . The resulting space will represent , in a sense, the best case scenario for all the angles used in the previous step.
 
-* For the resulting space, the above mentioned algorithms are implemented for the calculation of the safest and optimal paths , but with one distiction. For every step (for every node in the case of the safest path, and for every growth interval for the optimal) 
+* For the resulting space, the previously mentioned algorithms are implemented for the calculation of the safest and optimal paths , but with one distiction. For every step (for every node in the case of the safest path, and for every growth interval for the optimal) a collision check is made with the current orientation. If no collision is detected, the orientation persists. Otherwise, a new orientation is chosen (from the set of angles chosen in the first step) . If multiple suitable new orientations are found, the one which requires the smallest change in angle is selected.
+
 ## Usage & Parameters
 
 **Note for compilation with Visual Studio** : For better execution speed, select 'Release' in the solution configuration.
