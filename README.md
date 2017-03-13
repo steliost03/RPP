@@ -33,6 +33,15 @@ This program uses the following libraries :
 
 ## How it works
 
+### Minkowski sums and modified boundary
+
+In order to simplify calculations , the robot is considered to be a point in space (specifically,the point chosen is always its center).
+The information about its dimensions is 'transferred' to the obstacles and the boundary of the environment . They are modified accordingly so that the resulting environment is mathematically equivalent to its initial counterpart.
+
+The mathematical tool used in order to correctly modify the dimensions of the obstacles, are the Minkowski sums (calculated in an approximate manner, through selecting key points of both the robot and the obstacle).
+
+For the boundary , different approximate geometric techniques are used.
+
 ### Generalized Voronoi diagram
 
 ### Safest path calculation
@@ -40,6 +49,7 @@ This program uses the following libraries :
 ### Optimal path calculation
 
 ## Parameters
+
 
 ## License
 
