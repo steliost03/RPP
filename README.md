@@ -44,9 +44,34 @@ For the boundary , different approximate geometric techniques are used.
 
 ### Generalized Voronoi diagram
 
+The generalized Voronoi diagram is used to calculate the safest path. The steps used for its calculations are the following :
+
+* The obstacles and the environment boundary are discretized . The discretization is more dense at the areas where their direction changes. With this tecnhique , we get a better approximation of the initial environment characteristics.
+
+* For every resulting point of the discretization , the Voronoi diagram is calculated (using the half-plane intersection method). A large number of cells is generated after this procedure.
+
+* Of all the cell lines that are generated , the ones that pass through obstacles or exit the environment boundaries are deleted. 
+ The remaining lines are transformed into a graph representation.
+
 ### Safest path calculation
 
+For the calculation of the safest path, the generalized Voronoi diagram is utilized.
+
+Specifically, the procedure is the following :
+
+* 
+* 
+* 
+
 ### Optimal path calculation
+
+For the calculation of the optimal path , the following procedure is utilized :
+
+* 
+* 
+* 
+* 
+* 
 
 ## Usage & Parameters
 
