@@ -33,12 +33,6 @@ This program uses the following libraries :
 
 ## How it works
 
-### Minkowski sums
-
-
-### Modified boundary
-
-
 ### Generalized Voronoi diagram
 
 ### Safest path calculation
