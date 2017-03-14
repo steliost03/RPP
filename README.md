@@ -33,6 +33,13 @@ This program uses the following libraries :
 
 ## Installation
 
+**Note for compilation with Visual Studio** : For better execution speed, select 'Release' in the solution configuration.
+
+### Windows
+
+
+### Linux
+
 ## How it works
 
 ### Minkowski sums, modified boundary and resulting free space
@@ -92,8 +99,6 @@ The following procedure is implemented :
 * For the resulting space, the previously mentioned algorithms are implemented for the calculation of the safest and optimal paths , but with one distiction. For every step (for every node in the case of the safest path, and for every growth interval for the optimal) a collision check is made with the current orientation. If no collision is detected, the orientation persists. Otherwise, a new orientation is chosen (from the set of angles chosen in the first step) . If multiple suitable new orientations are found, the one which requires the smallest change in angle is selected.
 
 ## Usage, input and parameters
-
-**Note for compilation with Visual Studio** : For better execution speed, select 'Release' in the solution configuration.
 
 The user can find all info about how to use this program at the menu located at the left side of the screen.
 
