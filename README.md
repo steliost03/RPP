@@ -106,7 +106,6 @@ Through the sliders under the main menu , the user can set the following paramet
 
 * Number of angles that will be calculated in the combined motion path planning.
 
-
 ## License
 
 For personal , educational and/or other uses covered under fair use. This limitation is due to the dependencies of this program.
