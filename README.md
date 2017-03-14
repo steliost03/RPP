@@ -17,8 +17,7 @@ The paths can be calculated for two types of motion:
 
 ## Screenshots
 
-<img src = "https://cloud.githubusercontent.com/assets/20325266/23851681/097ed4fc-07ed-11e7-9370-f1aa3eea29bb.jpg" width = "49%" >
-<img src = "https://cloud.githubusercontent.com/assets/20325266/23851682/0a7ea8fa-07ed-11e7-8c1f-0ef5ebff7276.jpg" width = "49%" >
+<img src = "https://cloud.githubusercontent.com/assets/20325266/23851681/097ed4fc-07ed-11e7-9370-f1aa3eea29bb.jpg" width = "49%" >   <img src = "https://cloud.githubusercontent.com/assets/20325266/23851682/0a7ea8fa-07ed-11e7-8c1f-0ef5ebff7276.jpg" width = "49%" >
 
 ## Dependencies
 
@@ -33,6 +32,13 @@ This program uses the following libraries :
                ( http://www.angusj.com/delphi/clipper.php )
 
 ## Installation
+
+**Note for compilation with Visual Studio** : For better execution speed, select 'Release' in the solution configuration.
+
+### Windows
+
+
+### Linux
 
 ## How it works
 
@@ -94,8 +100,15 @@ The following procedure is implemented :
 
 ## Usage, input and parameters
 
-**Note for compilation with Visual Studio** : For better execution speed, select 'Release' in the solution configuration.
+The user can find all info about how to use this program at the menu located at the left side of the screen.
 
+The user can enter custom environments and obstacles. Additionally, the program supports random as well as hardcoded default obstacles for testing purposes.
+
+Through the sliders under the main menu , the user can set the following parameters :
+
+* Discretization interval for the Generalized Voronoi diagram.
+
+* Number of angles that will be calculated in the combined motion path planning.
 
 ## License
 
