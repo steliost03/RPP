@@ -17,8 +17,7 @@ The paths can be calculated for two types of motion:
 
 ## Screenshots
 
-<img src = "https://cloud.githubusercontent.com/assets/20325266/23851681/097ed4fc-07ed-11e7-9370-f1aa3eea29bb.jpg" width = "49%" >
-<img src = "https://cloud.githubusercontent.com/assets/20325266/23851682/0a7ea8fa-07ed-11e7-8c1f-0ef5ebff7276.jpg" width = "49%" >
+<img src = "https://cloud.githubusercontent.com/assets/20325266/23851681/097ed4fc-07ed-11e7-9370-f1aa3eea29bb.jpg" width = "49%" >   <img src = "https://cloud.githubusercontent.com/assets/20325266/23851682/0a7ea8fa-07ed-11e7-8c1f-0ef5ebff7276.jpg" width = "49%" >
 
 ## Dependencies
 
