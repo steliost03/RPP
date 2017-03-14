@@ -96,6 +96,16 @@ The following procedure is implemented :
 
 **Note for compilation with Visual Studio** : For better execution speed, select 'Release' in the solution configuration.
 
+The user can find all info about how to use this program at the menu located at the left side of the screen.
+
+The user can enter custom environments and obstacles. Additionally, the program supports random as well as hardcoded default obstacles for testing purposes.
+
+Through the sliders under the main menu , the user can set the following parameters :
+
+* Discretization interval for the Generalized Voronoi diagram
+
+* Number of angles that will be calculated in the combined motion path planning.
+
 
 ## License
 
