@@ -102,7 +102,7 @@ The user can enter custom environments and obstacles. Additionally, the program 
 
 Through the sliders under the main menu , the user can set the following parameters :
 
-* Discretization interval for the Generalized Voronoi diagram
+* Discretization interval for the Generalized Voronoi diagram.
 
 * Number of angles that will be calculated in the combined motion path planning.
 
