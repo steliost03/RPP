@@ -49,8 +49,11 @@ Run the installer located in the 'vvr windows installer' folder. This installati
 
 **VVR framework installation**
 
+Coming soon.
+
 **Compilation**
 
+Open the terminal window in the 'code & makefile' folder, and type in the 'make' command. A 'Robot' executable should be created in the same folder. This can be executed by typing in the './Robot' command.
 
 ## How it works
 
