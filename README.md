@@ -23,7 +23,7 @@ The paths can be calculated for two types of motion:
 
 This program uses the following libraries :
 
-* *vvr framework* : Graphical environment implementation . 
+* *vvr framework* : Graphical environment implementation . ( http://www.vvr.ece.upatras.gr/index.php/en/ )
 
 * *geolib* : Data representation of various objects and shapes, utilization of several computational geometry algorithms.   
              ( http://www.geolib.co.uk/ )
@@ -33,12 +33,27 @@ This program uses the following libraries :
 
 ## Installation
 
-**Note for compilation with Visual Studio** : For better execution speed, select 'Release' in the solution configuration.
+The vvr framework (which also contains the geolib library) must be installed seperately.
+
+The vvr framework (without installation instructions) can be found in : https://bitbucket.org/vvr/vvrframework
 
 ### Windows
 
+**VVR framework installation (for Visual Studio 2013 only)**
+
+Run the installer located in the 'vvr windows installer' folder. This installation is for Visual Studio 2013 only.
+
+**Note for compilation with Visual Studio** : For better execution speed, select 'Release' in the solution configuration.
 
 ### Linux
+
+**VVR framework installation**
+
+Coming soon.
+
+**Compilation**
+
+Open the terminal window in the 'code & makefile' folder, and type in the 'make' command. A 'Robot' executable should be created in the same folder. This can be executed by typing in the './Robot' command.
 
 ## How it works
 
