@@ -125,6 +125,12 @@ Through the sliders under the main menu , the user can set the following paramet
 
 * Number of angles that will be calculated in the combined motion path planning.
 
+## Coming Soon
+
+* Live simulation of robot path, for combined motion path planning (instead of just static display).
+
+* Support for polygonal robot , circular environment boundaries and circular obstacles.
+
 ## License
 
 For personal , educational and/or other uses covered under fair use. This limitation is due to the dependencies of this program.
