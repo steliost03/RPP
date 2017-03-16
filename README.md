@@ -19,6 +19,8 @@ The paths can be calculated for two types of motion:
 
 <img src = "https://cloud.githubusercontent.com/assets/20325266/23851681/097ed4fc-07ed-11e7-9370-f1aa3eea29bb.jpg" width = "49%" >   <img src = "https://cloud.githubusercontent.com/assets/20325266/23851682/0a7ea8fa-07ed-11e7-8c1f-0ef5ebff7276.jpg" width = "49%" >
 
+<img src = "https://cloud.githubusercontent.com/assets/20325266/23986768/8b8418ca-0a2e-11e7-8b19-395679ed723e.png" width = "49%">   <img src = "https://cloud.githubusercontent.com/assets/20325266/23986770/8d02539c-0a2e-11e7-957f-c76e47327162.png" width = "49%">
+
 ## Dependencies
 
 This program uses the following libraries :
@@ -124,6 +126,18 @@ Through the sliders under the main menu , the user can set the following paramet
 * Discretization interval for the Generalized Voronoi diagram.
 
 * Number of angles that will be calculated in the combined motion path planning.
+
+## Coming Soon
+
+* Live simulation of robot path, for combined motion path planning (instead of just static display).
+
+* Support for polygonal robot , circular environment boundaries and circular obstacles.
+
+* Improvements on text file input.
+
+## Known issues
+
+* Occassional bug with approximation of obstacle boundary orientation,in combined motion path planning.
 
 ## License
 
