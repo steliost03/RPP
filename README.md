@@ -131,6 +131,10 @@ Through the sliders under the main menu , the user can set the following paramet
 
 * Support for polygonal robot , circular environment boundaries and circular obstacles.
 
+## Known issues
+
+* Occassional bug with approximation of obstacle boundary orientation,in combined motion path planning.
+
 ## License
 
 For personal , educational and/or other uses covered under fair use. This limitation is due to the dependencies of this program.
