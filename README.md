@@ -131,6 +131,8 @@ Through the sliders under the main menu , the user can set the following paramet
 
 * Support for polygonal robot , circular environment boundaries and circular obstacles.
 
+* Improvements on text file input.
+
 ## Known issues
 
 * Occassional bug with approximation of obstacle boundary orientation,in combined motion path planning.
