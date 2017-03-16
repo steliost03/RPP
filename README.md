@@ -43,15 +43,15 @@ The vvr framework (without installation instructions) can be found in : https://
 
 **VVR framework installation (for Visual Studio 2013 only)**
 
-Run the installer located in the 'vvr windows installer' folder. This installation is for Visual Studio 2013 only.
+Run the installer which can be found here : 
+
+https://drive.google.com/open?id=0By-Hy-bcfIQSN1ZfVDdtZHJ6OHc .
+
+This installation is for Visual Studio 2013 only.
 
 **Note for compilation with Visual Studio** : For better execution speed, select 'Release' in the solution configuration.
 
 ### Linux
-
-**VVR framework installation**
-
-Coming soon.
 
 **Compilation**
 
@@ -143,4 +143,4 @@ Through the sliders under the main menu , the user can set the following paramet
 
 For personal , educational and/or other uses covered under fair use. This limitation is due to the dependencies of this program.
 
-Copyright (C) 2017 Stelios Tsiakalos
+Copyright (C) 2017 Stylianos Tsiakalos
