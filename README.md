@@ -53,10 +53,6 @@ This installation is for Visual Studio 2013 only.
 
 ### Linux
 
-**VVR framework installation**
-
-Coming soon.
-
 **Compilation**
 
 Open the terminal window in the 'code & makefile' folder, and type in the 'make' command. A 'Robot' executable should be created in the same folder. This can be executed by typing in the './Robot' command.
