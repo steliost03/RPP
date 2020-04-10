@@ -143,4 +143,4 @@ Through the sliders under the main menu , the user can set the following paramet
 
 For personal , educational and/or other uses covered under fair use. This limitation is due to the dependencies of this program.
 
-Copyright (C) 2017 Stelios Tsiakalos
+Copyright (C) 2017 Stylianos Tsiakalos
